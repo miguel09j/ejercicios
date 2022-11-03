@@ -1,1 +1,11 @@
 # realizar un algoritmo en el cual el usuario ingrese un numero en el comienso y en el final con el numero a multiplicar,de una tabla de multiplicar haciendo uso de una funcion:
+
+
+numero = int(input(" ¿que multiplicador desea colocar?: "))
+l = int(input("¿que digito numerio tiene plantedo para la tabla?: "))
+P = int(input("¿que limite tiene en la tabla?: "))
+
+def tabla_multiplicacion(numero): 
+    for i in range (l,P+1): 
+        print(i, "*", numero, "=", i*numero) 
+tabla_multiplicacion(numero)
